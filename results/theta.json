@@ -1,0 +1,43 @@
+{
+  "latency": {
+    "tau_s": 2.4696296815853043e-05,
+    "bandwidth_bytes_per_s": 70234161475.86609,
+    "throughput_flops_per_s": 2962309931026.7515
+  },
+  "energy": {
+    "idle_power_w": 59.839548003033954,
+    "joules_per_flop": 1.970668404775996e-12,
+    "joules_per_byte": 1.1652701665680814e-30,
+    "latency": {
+      "tau_s": 2.4696296815853043e-05,
+      "bandwidth_bytes_per_s": 70234161475.86609,
+      "throughput_flops_per_s": 2962309931026.7515
+    }
+  },
+  "metrics": {
+    "latency": {
+      "train": {
+        "count": 63,
+        "mape_percent": 17.874979104437557,
+        "rmse": 0.03418901004687149
+      },
+      "validation": {
+        "count": 69,
+        "mape_percent": 20.18327539159995,
+        "rmse": 0.03767777698991817
+      }
+    },
+    "energy": {
+      "train": {
+        "count": 63,
+        "mape_percent": 17.12695917283891,
+        "rmse": 2.1866578842896685
+      },
+      "validation": {
+        "count": 69,
+        "mape_percent": 19.876263840775067,
+        "rmse": 2.4089763235654416
+      }
+    }
+  }
+}
